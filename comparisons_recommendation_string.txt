@@ -1,0 +1,14 @@
+RECOMENDACIÓN Y SELECCIÓN DEL MEJOR MODELO
+================================================================================
+Modelo Seleccionado: Keras
+
+Justificación:
+Keras obtuvo un mejor rendimiento en la métrica principal ROC-AUC (Test): 0.8434
+(PyTorch obtuvo: 0.8396).
+
+Análisis Adicional:
+- F1-Score: Keras también mostró un F1-Score competitivo (0.5942).
+- Eficiencia: PyTorch (con GridSearchCV) fue significativamente más rápido en el tuning (112.50s) que Keras (327.77s).
+
+Debido a su rendimiento superior en la métrica principal (AUC), se selecciona el modelo PyTorch para el despliegue en Streamlit.
+================================================================================

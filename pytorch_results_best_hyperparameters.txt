@@ -1,0 +1,7 @@
+PyTorch (GridSearchCV):
+- max_epochs: 50
+- batch_size: 32
+- module__dropout_p: 0.2
+- module__num_units1: 64
+- module__num_units2: 64
+- optimizer__lr: 0.0001

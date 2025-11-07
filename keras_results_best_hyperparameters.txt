@@ -1,0 +1,6 @@
+Keras (Tuner):
+- units1: 96
+- units2: 80
+- dropout: 0.40
+- activation: tanh
+- learning_rate: 0.001
